@@ -1,4 +1,3 @@
 # camera1-3
-Publisher 노드: 카메라에서 gstreamer를 이용하여 영상을 캡쳐하고 토픽메시지로 발행
-Subscriber 노드: 영상 토픽을 구독하여 gstreamer를 이용하여 PC로 전송
-클래스를 이용한 코드로 변경한 패키지
+subscriber 노드에서 구독한 영상을 화면에 출력하고 동시에 동영상 파일(mp4)로 저장하는 패키지
+실행시 저장을 시작하고 ctrl+c 를 누르면 저장을 종료
